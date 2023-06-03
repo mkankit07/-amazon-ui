@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactStars from "react-rating-stars-component";
 import { Link } from 'react-router-dom';
-
+// Smartwatch-PNG-Image.png
 const ProductCard = () => {
     return (
         <div className='col-3'>
@@ -13,6 +13,7 @@ const ProductCard = () => {
                 </div>
                 <div className='product-image'>
                     <img src="images/watch.jpg" alt='product img' />
+                    <img src="images/w2.jpg" alt='product img' height={270} style={{marginLeft:"-4rem"}}/>
                 </div>
                 <div className='product-details'>
                     <h6 className='brand'>Havels</h6>

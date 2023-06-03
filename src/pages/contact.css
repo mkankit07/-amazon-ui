@@ -1,0 +1,412 @@
+.box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0.938rem;
+  }
+  
+  .sx {
+    position: fixed;
+    background-color: #fff;
+    width: 17rem;
+    height: 100%;
+    color: #000;
+    border: none;
+    box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+    z-index: 10;
+  }
+  
+  .orgDropdown {
+    list-style: none;
+    border: 0.1rem solid black;
+  }
+  
+  .orgDropdown a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 9.5rem;
+  }
+  
+  .menudropdown .dropdown-menu {
+    padding: 10px;
+  }
+  
+  .menudropdown .dropdown-menu a {
+    padding: 10px 10px;
+    text-decoration: none !important;
+  }
+  
+  .not-icon {
+    right: -12px;
+  }
+  
+  .nav-link img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border: 1px solid #d9e0e8;
+    border-radius: 50%;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #000;
+  }
+  
+  .logobox {
+    padding: 10px;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: inherit;
+  }
+  
+  .logobox img {
+    height: 3rem;
+    width: 12.5rem;
+  }
+  
+  .sidenarmenulist {
+    list-style: none;
+    margin: 0 !important;
+    padding: 10px 14px !important;
+    position: relative;
+    margin-top: 15px !important;
+  }
+  
+  .sidenarmenulist li {
+    display: flex;
+    cursor: pointer;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    transition: 0.3s all ease 0s;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .orgName,
+  .orgName:hover {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 0.5rem !important;
+    z-index: 99;
+  }
+  
+  .sidenarmenulist li:hover>.listItem>.sidebarMenu {
+    text-align: left;
+    font: normal normal bold 16px/22px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+  }
+  
+  .sidenarmenulist>.activeTab>.listItem>.sidebarMenu {
+    text-align: left;
+    font: normal normal bold 16px/22px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+  }
+  
+  .sidenarmenulist li:hover {
+    transition: 0.3s all ease 0s;
+    background-color: #221f80;
+    color: #fff !important;
+  }
+  
+  .sidenarmenulist .activeTab {
+    background-color: #221f80;
+    color: #fff;
+  }
+  
+  .sidenarmenulist>.activeTab>.listItem>svg>g>path {
+    stroke: white;
+  }
+  
+  .sidenarmenulist>.activeTab>.listItem>svg>path {
+    stroke: white;
+  }
+  
+  .sidenarmenulist>li:hover>.listItem>svg>path {
+    stroke: white;
+  }
+  
+  .sidenarmenulist>li:hover>.listItem>svg>g>path {
+    stroke: white;
+  }
+  
+  .sidenarmenulist>.activeTab>.listItem>svg>g>g>path {
+    stroke: white;
+  }
+  
+  .sidenarmenulist>li:hover>.listItem>svg>g>g>path {
+    stroke: white;
+  }
+  
+  .listItem {
+    width: 100%;
+    padding: 0.2rem;
+  }
+  
+  .hoverList {
+    margin-bottom: 0.4rem;
+  }
+  
+  .icon {
+    min-width: 39px;
+  }
+  
+  .sidebarMenu {
+    margin: 0 !important;
+    font-weight: 400;
+    /* font-size: 15px; */
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    display: block;
+    color: rgba(0, 28, 131, 1);
+    letter-spacing: 0px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal 600 16px/18px;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  
+  .bp4-drawer {
+    box-shadow: none !important;
+  }
+  
+  .bp4-popover2-target span:focus {
+    outline: none !important;
+    outline-offset: unset !important;
+  }
+  
+  .orgTitle {
+    position: absolute;
+    font-size: 0.7rem;
+    top: -8px;
+    font-weight: 600;
+    background: #fff;
+    padding: 0 0.2rem;
+  }
+  
+  .orgName span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .bedge-number {
+    background: red;
+    position: absolute;
+    padding: 3px;
+    border-radius: 100%;
+    width: 1.3rem;
+    height: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -2.2rem;
+    margin-left: 14px
+  }
+  
+  .notifications {
+    color: gray;
+  }
+  
+  .notifications-container {
+    background-color: #f5f9ff;
+    padding: 0.25rem;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  
+  .notification-message-container {
+    position: fixed;
+    right: 3rem !important;
+    top: 4rem;
+    background-color: white;
+    width: 20%;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 4px 0.2px gray;
+    border-radius: 4px;
+    z-index: 99;
+    height: auto;
+  }
+  .notification-message-items>span{
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .notification-title {
+    width: 100%;
+    height: 4.3rem;
+    overflow: hidden;
+    white-space: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 0.5rem;
+  }
+  
+  .notification-item {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+    background: #f0f2f8;
+  }
+  
+  .notification-accept {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 1rem;
+  }
+  
+  .notification-item:hover {
+    background: white;
+  }
+  
+  .notification-message-contain {
+    height: 68vh;
+    overflow: hidden;
+  }
+  
+  .show-more-message {
+    border-top: 1px solid #e3e3e3;
+    width: 100%;
+    padding-top: 5px;
+    margin: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+    /* text-align: center; */
+  }
+  
+  .cancel-btn {
+    background: none !important;
+    color: red !important;
+    padding: 0px !important;
+    min-height: 24px !important;
+    padding: 4px;
+    min-width: 60px !important;
+    text-align: center;
+    border: 1px solid red !important;
+  }
+  
+  .success-btn {
+    background: none !important;
+    color: green !important;
+    padding: 0px !important;
+    min-height: 24px !important;
+    min-width: 50px !important;
+    text-align: center;
+    padding: 4px;
+    border: 1px solid green !important;
+  }
+  
+  .container-notification-message {
+    overflow-y: scroll !important;
+    height: 84vh;
+  }
+  
+  .disable-notification {
+    color: gray;
+    background-color: #f3f3f3 !important;
+  }
+  
+  .disable-btn {
+    cursor: not-allowed !important;
+    color: gray !important;
+    border: 1px solid gray !important;
+  }
+  
+  .tooltip-org-name {
+    height: fit-content;
+    width: fit-content;
+  }
+  
+  .subscriptions-plan {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .subscriptions-plan .plan {
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 10px;
+  }
+  
+  /* .subscriptions-plan .plan p {
+    margin: 0;
+  } */
+  .subscriptions {
+    width: 1000px !important;
+  }
+  
+  .subscriptions-plan .subscriptions-plan-header {
+    width: 100%;
+    height: 50px;
+    background-color: #08adef;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .subscriptions-plan .subscriptions-plan-header p {
+    font-weight: bold;
+  }
+  
+  .subscriptions-plan .payment-text {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  
+  .subscriptions-plan .payment-body {
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0;
+  }
+  
+  .subscriptions-plan .subscriptions-features {
+    margin-bottom: 0;
+  }
+  
+  .subscriptions-plan .subscriptions-features li {
+    margin: 5px 0;
+  }
+  
+  .subscriptions-plan .payment-inside {
+    text-align: center;
+    font-weight: initial;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
