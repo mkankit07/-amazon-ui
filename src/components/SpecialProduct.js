@@ -24,12 +24,12 @@ const SpecialProduct = () => {
                         <p className='price'><span className='red-p'>$100 &nbsp; <strike> $200</strike></span></p>
                         <div className='discount-till d-flex align-items-center gap-10'>
                             <p className='mb-0'>
-                                <b>5</b>Days
+                                <b>5</b> Days
                             </p>
                             <div className='d-flex gap-10 align-items-center'>
-                                <span className='badge rounded-circle p-3 bg-warning'>1</span>:
-                                <span className='badge rounded-circle p-3 bg-warning'>1</span>:
-                                <span className='badge rounded-circle p-3 bg-warning'>1</span>
+                                <span className='badge rounded-circle p-3 bg-danger'>1</span>:
+                                <span className='badge rounded-circle p-3 bg-danger'>1</span>:
+                                <span className='badge rounded-circle p-3 bg-danger'>1</span>
                             </div>
                         </div>
                         <div className='prod-count mt-3'>
